@@ -22,6 +22,7 @@ As I explored the AWS infrastructure, I encountered several standard network com
 3. **Data Centers**: Data centers are the physical facilities where AWS deploys its servers, storage systems, and networking equipment. These data centers house the hardware that powers the AWS infrastructure, providing the backbone for the cloud services we utilize.
 
 4. **Edge Locations (CloudFront)**: Edge locations are endpoints in AWS's Content Delivery Network (CDN) service called CloudFront. They act as cache endpoints closer to end users, reducing latency and improving content delivery speeds. These edge locations play a crucial role in delivering content with low latency by caching frequently accessed data.
+![image](https://github.com/AJAX-Codder/Cloud_Computing_STTP/assets/126388812/ed5ba409-37a7-4b5a-abc0-8c4b9cd53d61)
 
 With this newfound knowledge, I'm excited to explore further and leverage the power of AWS to build scalable, secure, and reliable applications.
 
