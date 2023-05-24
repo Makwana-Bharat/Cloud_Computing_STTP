@@ -5,7 +5,8 @@ Sure! Here's a revised version that starts with your introduction to your learni
 Today, I had the opportunity to dive into the fascinating world of Amazon Web Services (AWS). I delved into the fundamentals of AWS and explored various components that form the backbone of its infrastructure. Two key concepts that stood out to me were IAM (Identity and Access Management) and Standard Network Components. Let me provide you with a brief overview of each:
 
 ### IAM (Identity and Access Management)
-![IAM](https://example.com/iam-image.jpg)
+![image](https://github.com/AJAX-Codder/Cloud_Computing_STTP/assets/126388812/7d0f019d-1975-4e9e-8a69-5c149c31e5af)
+
 
 AWS IAM plays a pivotal role in ensuring secure access control to AWS resources. It offers a powerful web service that allows us to manage users, groups, and their permissions. With IAM, we can exercise fine-grained control over who can access specific AWS services and resources and define the actions they can perform. By centralizing authentication and authorization, IAM helps maintain a robust security posture within the AWS environment.
 
