@@ -11,7 +11,7 @@ Today, I had the opportunity to dive into the fascinating world of Amazon Web Se
 AWS IAM plays a pivotal role in ensuring secure access control to AWS resources. It offers a powerful web service that allows us to manage users, groups, and their permissions. With IAM, we can exercise fine-grained control over who can access specific AWS services and resources and define the actions they can perform. By centralizing authentication and authorization, IAM helps maintain a robust security posture within the AWS environment.
 
 ### Standard Network Components: Regions, AZs, Data Centers, and Edge Locations
-![Standard Network Components](https://example.com/network-components-image.jpg)
+![image](https://github.com/AJAX-Codder/Cloud_Computing_STTP/assets/126388812/ef8bcc41-1fa4-400d-997f-86745e437e71)
 
 As I explored the AWS infrastructure, I encountered several standard network components that form the backbone of AWS's global architecture:
 
