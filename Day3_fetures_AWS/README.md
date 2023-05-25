@@ -4,6 +4,7 @@ Today's AWS STTP session was another amazing day of learning, where I delved int
 
 ### 1. EC2 (Elastic Compute Cloud):
 EC2 is a fundamental service offered by AWS that provides resizable compute capacity in the cloud. It enables you to create and manage virtual servers (called instances) for running applications and services. During the session, I gained insights into different EC2 instance types, their specifications, and how to choose the right instance type for specific workloads.
+
 ![image](https://github.com/AJAX-Codder/Cloud_Computing_STTP/assets/126388812/4cba29c5-0f85-4602-bc37-dab3d4778ff0)
 
 
@@ -11,6 +12,7 @@ EC2 is a fundamental service offered by AWS that provides resizable compute capa
 We discussed different user types and their roles within an AWS environment:
 - **Root User:** The root user is the initial administrative user created when setting up an AWS account. It has complete access and control over all AWS services and resources within the account.
 - **IAM Users:** IAM (Identity and Access Management) users are created to grant specific permissions and manage access to AWS resources. IAM allows fine-grained control over user access, enabling secure resource management.
+
 ![image](https://github.com/AJAX-Codder/Cloud_Computing_STTP/assets/126388812/f258b10a-9e20-4c4f-afed-9b3b04432b97)
 
 
@@ -19,6 +21,7 @@ The session covered various storage options available in AWS:
 - **Block Storage:** Block storage provides persistent block-level storage volumes for EC2 instances. It allows you to attach and detach volumes as needed.
 - **S3 (Simple Storage Service):** S3 provides object storage for storing and retrieving large amounts of data. It is highly scalable, durable, and accessible over the internet.
 - **Other Storage Options:** AWS offers additional storage services like EBS (Elastic Block Store) for block-level storage, EFS (Elastic File System) for fully managed file storage, and FSx (Amazon FSx) for Windows and Lustre file systems.
+
 ![image](https://github.com/AJAX-Codder/Cloud_Computing_STTP/assets/126388812/a1d2bc89-b746-429c-a8a7-0ec6074ed512)
 
 
@@ -27,6 +30,7 @@ We explored EC2 placement groups and their different modes:
 - **EC2 Placement Groups:** Placement groups are logical groupings of instances within a single Availability Zone (AZ). They help control the placement of instances to achieve specific performance or availability objectives.
 - **Cluster Placement Group:** This mode optimizes network performance by grouping instances in a single rack to reduce latency and increase throughput.
 - **Spread Placement Group:** Spread placement groups spread instances across underlying hardware to reduce the risk of simultaneous failures, enhancing availability.
+
 ![image](https://github.com/AJAX-Codder/Cloud_Computing_STTP/assets/126388812/f05c907d-ef13-430b-958c-42d5bc546fc1)
 
 ### 5. Buckets and Amazon S3 Features:
@@ -34,11 +38,13 @@ We explored EC2 placement groups and their different modes:
 - **Amazon S3 Access Points:** S3 access points simplify managing access and permissions for shared data sets in S3. They provide fine-grained access control and simplify managing access policies.
 - **Amazon S3 Versioning:** S3 versioning allows you to preserve, retrieve, and restore previous versions of objects. It provides an added layer of data protection and enables easy recovery from unintended modifications or deletions.
 - **Backup Tools/Snapshots:** AWS offers various backup and snapshot solutions, such as Amazon EBS snapshots, which allow you to create point-in-time backups of your data for data protection and disaster recovery purposes.
+
 ![image](https://github.com/AJAX-Codder/Cloud_Computing_STTP/assets/126388812/c0e3d4ad-3129-4b5d-8fe1-c32ec86c2f46)
 
 
 ### 6. Multipart Uploads:
 - **Multipart Uploads:** Multipart uploads in Amazon S3 enable the upload of large objects in parts. It improves performance, resiliency, and reliability while uploading large files, especially in unstable network conditions.
+
 ![image](https://github.com/AJAX-Codder/Cloud_Computing_STTP/assets/126388812/c271efad-f809-44b1-8f9e-402e1bd643b7)
 
 
@@ -48,6 +54,7 @@ We explored EC2 placement groups and their different modes:
   - **Expedited Retrieval:** This retrieval option provides the fastest data access, typically within 1-5 minutes. It is suitable for scenarios where low retrieval latency is critical.
 - **Standard Retrieval:** Standard retrieval provides data access within 3-5 hours. It offers a balance between cost and retrieval time, making it suitable for most archive retrieval needs.
 - **Bulk Retrieval:** Bulk retrieval is the most cost-effective option but comes with a longer retrieval time, ranging from 5 to 12 hours. It is ideal for large data sets where retrieval time is not a priority.
+
 ![image](https://github.com/AJAX-Codder/Cloud_Computing_STTP/assets/126388812/cd4f307f-13b4-4e4c-b941-3e6ffd7b2b80)
 
 By leveraging these different retrieval options, Glacier enables long-term data storage and retrieval while optimizing cost and retrieval performance.
