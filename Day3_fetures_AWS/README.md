@@ -1,5 +1,3 @@
-Certainly! Here's the revised version that includes the complete summary for all the topics you mentioned:
-
 ## AWS STTP Session - Key Learnings
 
 Today's AWS STTP session was another amazing day of learning, where I delved into several important topics related to AWS. Here's a detailed summary of what I learned:
