@@ -1,0 +1,25 @@
+import cv2
+import matplotlib.pyplot as plt
+
+img = cv2.imread("C:\\Users\\Makwana Bharat\\welcome-to-docker\\Day4_Intro_Image_Processing\\Puppy-care.webp",1)
+plt.imshow(cv2.cvtColor(img,cv2.COLOR_BGR2RGB))
+plt.title('plt image')
+plt.xticks([])
+plt.yticks([])
+plt.show()
+cv2.waitKey(0)
+cv2.destroyAllWindows()
+
+cv2.imshow('original',img)
+cv2.waitKey(0)
+b,g,r=cv2.split(img)
+rgb_img=cv2.merge([b,g,r])
+cv2.imshow('Color',rgb_img)
+cv2.waitKey(0)
+cv2.imshow('Red',r)
+cv2.waitKey(0)
+cv2.imshow('Green',g)
+cv2.waitKey(0)
+cv2.imshow('Blue',b)
+cv2.waitKey(0)
+cv2.destroyAllWindows()
